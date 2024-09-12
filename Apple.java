@@ -21,6 +21,13 @@ public class Apple extends Actor
         {
             resetApple();
         }
+        
+        if(isTouching(Bear.class))
+        {
+            Skull skull = new Skull();
+            getWorld().addObject(skull, 300, 200);
+            getWorld().removeObject(this);
+        }
     }
     
     public void resetApple()
