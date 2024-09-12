@@ -12,9 +12,9 @@ public class MyWorld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
         Bear bear = new Bear();
-        addObject(bear, 100, 100);
+        addObject(bear, 100, 300);
         
         Apple apple = new Apple();
-        addObject(apple, 300, 0);
+        addObject(apple, 600, 100);
     }
 }

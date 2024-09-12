@@ -18,7 +18,7 @@ public class Bear extends Actor
         MouseInfo mouse = Greenfoot.getMouseInfo();
         if(Greenfoot.mouseDragged(null))
         {
-            setLocation(mouse.getX(), mouse.getY());
+            setLocation(100, mouse.getY());
         }
     }
 }
